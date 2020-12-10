@@ -1,0 +1,29 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabCompletion": "on",
+    "editor.detectIndentation": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.jediEnabled": false,
+    "terminal.integrated.rendererType": "dom",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "sqltools.useNodeRuntime": true,
+    "python.languageServer": "Microsoft",
+    "go.formatTool": "goimports",
+    "go.toolsGopath": "C:/Users/logan/go/",
+    "go.gopath": "C:/Users/logan/go/",
+    "go.goroot": "C:/Users/logan/go/bin/",
+    "go.lintOnSave": "package",
+    "go.useLanguageServer": true,
+    "gopls": {
+        "buildFlags": ["-tags=api_tests"]
+    }
+}
