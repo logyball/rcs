@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/c/Users/logan/AppData/Local/Programs/Microsoft\ VS\ Code/bin/:/home/lballard/.cargo/bin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
