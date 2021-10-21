@@ -107,9 +107,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Set Python3 as default using pyenv - https://opensource.com/article/19/5/python-3-default-mac
-eval "$(pyenv init -)"
+# redefine path stuff from profile just in case its non interactive
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
+# get golang stuff on PATH
+export GOPATH=$HOME/go
+export PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
