@@ -8,3 +8,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Open stuff with VS Code
 alias code='open -a "Visual Studio Code"'
+
+alias k="kubectl"
+
+alias tf="terraform"
